@@ -9,14 +9,16 @@ function generateMarkdown(data) {
   ${data.description}
   
 ## Table of Contents
-  * The project title
-  * Description 
-  * Installation 
-  * Usage 
-  * License 
-  * Contributing 
-  * Tests 
-  * Questions
+  - [The project title] (#Project title)
+  - [Description] (#Description )
+  - [Installation] (#Installation)
+  - [Usage] (#Usage)
+  - [Contributing] (#Contributing)
+  - [Tests] (#Tests)
+  - [Questions] (#Questions)
+  - [License] (#License)
+  - [User name] (#User name)
+  - [User email] (#User email)
   
 ## Installation
   Run the following command in order to install necessary dependencies:
@@ -40,7 +42,6 @@ function generateMarkdown(data) {
 
 ## User name
   ${data.username}
-
 
 ## User email
   ${data.email}
